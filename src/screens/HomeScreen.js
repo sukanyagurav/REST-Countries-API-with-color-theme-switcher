@@ -29,7 +29,7 @@ function createDropDown(country){
         const selected = dropdown.querySelector('.selected')
         country.map(country=>{
         const ele=document.createElement('li')
-        ele.setAttribute('country',country)
+        ele.setAttribute('data-country',country)
         ele.innerHTML=country
         menu.append(ele)
     })
