@@ -1,4 +1,4 @@
-import {formatNumber} from '/utils.js'
+import {formatNumber} from '../utils.js';
 var timer
 async function getCountry(){
     const APIURL=`https://restcountries.com/v3.1/`
